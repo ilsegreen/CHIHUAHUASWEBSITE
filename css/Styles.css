@@ -173,3 +173,103 @@ img{
 	width: 70%;
 	height: auto;
 }
+
+//*.carrusel {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.carrusel-items {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 30px 0px;
+}
+
+.carrusel-item {
+  min-width: 300px;
+  max-width: 300px;
+  height: 200px;
+  outline: 2px solid black;
+  cursor: pointer;
+}
+
+.carrusel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carrusel-item:hover {
+  transform: scale(1.2);
+}
+*/
+
+.carousel {
+    max-width: auto;
+    margin: 0 auto;
+    display: flex;
+}
+#imagen {
+    width:auto;
+    height: 255px;
+    background-size: contain;
+background-repeat: no-repeat;
+display: block;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+}
+#retroceder{
+	border: 4px solid rgba(100,100,100,0.2);
+	margin-bottom: 20px;
+	padding: 20x;
+	width: 180px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	border-radius: 8px;
+	color: #ffffff;
+	background-size: 300%;
+	background-position: right;
+background-image: linear-gradient(to left, #9e0d9e, #d9a2e7, #9e0d9e);
+}
+#avanzar{
+	border: 4px solid rgba(100,100,100,0.2);
+	margin-bottom: 20px;
+	padding: 20x;
+	width: 180px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	border-radius: 8px;
+	color: #ffffff;
+	background-size: 300%;
+	background-position: right;
+background-image: linear-gradient(to left, #9e0d9e, #d9a2e7, #9e0d9e);
+}
+#play{
+	border: 4px solid rgba(100,100,100,0.2);
+	margin-bottom: 20px;
+	padding: 20x;
+	width: 180px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	border-radius: 8px;
+	color: #ffffff;
+	background-size: 300%;
+	background-position: right;
+background-image: linear-gradient(to left, #00cc00, #99ff99, #00cc00);
+}
+#stop{
+	border: 4px solid rgba(100,100,100,0.2);
+	margin-bottom: 20px;
+	padding: 20x;
+	width: 180px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	border-radius: 8px;
+	color: #ffffff;
+	background-size: 300%;
+	background-position: right;
+background-image: linear-gradient(to left, #ff6666, #ffb2b2, #ff6666);
+}
